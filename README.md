@@ -16,3 +16,5 @@ Seit ca. 2010 gibt es eine Laufzeitumgebung (_Runtime Environment_) für JS, dam
 ## Installation von pnpm
 
 Der Standardmäßige _Package Manager_ für Node.js ist `npm` (_node package Manager_). Eine etwas modernere und inzwischen beliebtere Variante ist [`pnpm`] (https://pnpm.io/).
+
+Eine Path-Variable ist eine Umgebungsvariable, die dem Betriebssystem mitteilt, wo es ausführbare Dateien finden kann. Wenn du `pnpm` installierst, wird es normalerweise automatisch zu deiner Path-Variable hinzugefügt, damit du es von überall in der Kommandozeile ausführen kannst.
