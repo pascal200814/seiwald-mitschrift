@@ -50,6 +50,8 @@ Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werden. Wir kö
 
 ---
 
+---
+
 ## Javascript-Frontendentwicklung mit Frameworks (Svelte, React, Vue, Angular)
 
 Frontend-Entwicklung basiert auf Komponenten.
