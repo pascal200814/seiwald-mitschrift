@@ -4,7 +4,7 @@ Das ist die README.md-Datei. MD steht für markdown. Markdown ist eine heutzutag
 
 Weitere bekannte AUszeichungssprachen sind:
 
-- Hypertxt Markup Language (HTML)
+- Hypertext Markup Language (HTML)
 - Extensible Markup Language (XML)
 - Yet Another Markup Language (YAML, YML)
 
@@ -40,7 +40,7 @@ Daraufhin führt das CLI (_Command Line Interface_) durch die Installation. Fall
 1. Wechsel in das Installationsverzeichnis (mit `cd my-strapi-project`).
 2. Neuerlicher Versuch der Installation mit `pnpm install`. Dieser scheitert in der Regel - die Build-Skripte müssen mit `pnpm approve-builds` manuell freigegeben werden.
 
-# VibeCoding / AgenticEngineering mit VS-Code und Github Copilot
+## VibeCoding / AgenticEngineering mit VS-Code und Github Copilot
 
 Vibecoding passiert in VS-Code in erster Linie über die neu eingeführte Agent View.
 Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werden. Wir können unseren Harness mit verscheidenen Methoden anpassen:
