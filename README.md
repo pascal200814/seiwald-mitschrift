@@ -40,6 +40,19 @@ Daraufhin führt das CLI (_Command Line Interface_) durch die Installation. Fall
 1. Wechsel in das Installationsverzeichnis (mit `cd my-strapi-project`).
 2. Neuerlicher Versuch der Installation mit `pnpm install`. Dieser scheitert in der Regel - die Build-Skripte müssen mit `pnpm approve-builds` manuell freigegeben werden.
 
+---
+
+# Historische Entwicklung von WebDev
+
+Webdevelopment hat in Laufe der letzten rund 35 Jahre einige Evolutionsstufen durchlaufen:
+
+1. Statische Website (HTML, CSS, ggf. JavaScript) - initiale Form von Webanwendungen, bei der der Inhalt fest im HTML-Code definiert ist. Dominant in den 1990er Jahren.
+
+2. Dynamische Website (mit serverseitiger Programmiersprache - PHP, python, NodeJS - und Datenbankbindung). Dominant in den 2000er Jahren.
+
+3. _Single Page Applications_ (SPAs) mit clientseitigem Rendering (React, Angular, Vue, Svelte). Dominant in den 2010er Jahren.
+   Mit Javascript-Frameworks erstellte "Webapps", die ähnliche Funktionen wie klassische Desktop-Anwendungen bzw. Handy-Apps bieten. Dominant in den 2010er Jahren.
+
 ## VibeCoding / AgenticEngineering mit VS-Code und Github Copilot
 
 Vibecoding passiert in VS-Code in erster Linie über die neu eingeführte Agent View.
@@ -47,8 +60,6 @@ Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werden. Wir kö
 
 - **MCP-Server**:
   MCP steht für _Model Context Protocoll_. Es ist ein Standard der von Anthropic entwickelt wurde. Mithilfe von MCP können Chatbots/LLMs (_Large Language Models_) auf zusätzliche Tools zugreifen, die sie zu Experten in einem bestimmten Themenbreiech machen.
-
----
 
 ---
 
@@ -73,7 +84,9 @@ Template(Vorlage) <> HTML
 ## Runes
 
 $state(): für Reactivity, dass die Variablen automatisch aktualisiert werden, wenn sich ihr Wert ändert.
+
 $derived(): für abgeleitete Werte
+
 $effect(): Konstruktor für ein ".svelte"-file (SFC = Single File Component)
 
 ## UI, GUI und CLI
