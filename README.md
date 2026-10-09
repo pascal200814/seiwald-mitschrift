@@ -51,7 +51,12 @@ Webdevelopment hat in Laufe der letzten rund 35 Jahre einige Evolutionsstufen du
 2. Dynamische Website (mit serverseitiger Programmiersprache - PHP, python, NodeJS - und Datenbankbindung). Dominant in den 2000er Jahren.
 
 3. _Single Page Applications_ (SPAs) mit clientseitigem Rendering (React, Angular, Vue, Svelte). Dominant in den 2010er Jahren.
-   Mit Javascript-Frameworks erstellte "Webapps", die ähnliche Funktionen wie klassische Desktop-Anwendungen bzw. Handy-Apps bieten. Dominant in den 2010er Jahren.
+   Mit Javascript-Frameworks (z.B. React, Angular, Vue, Svelte) erstellte "Webapps", die ähnliche Funktionen wie klassische Desktop-Anwendungen bzw. Handy-Apps bieten. Dominant in den 2010er Jahren. Um Handy-Apps möglichst nahe zu kommen, wurde der _Progressive Web App_ (PWA)-Standard entwickelt. Damit können Webanwendungen offline funktionieren, Push-Benachrichtigungen senden und auf bestimmte native Funktionen des Geräts zugreifen. Es gibt drei Vorraussetzungen die eine Wepapp erfüllen muss, um als PWA zu gelten:
+   1. Die Webapp muss über ein Web-App-Manifest verfügen, das grundlegende Informationen über die App enthält (Name, Icons, Start-URL, etc.).
+
+   2. Die Webapp muss über einen Service Worker verfügen, der das Caching von Ressourcen und die Offline-Funktionalität ermöglicht. Ein Service Worker ist eine Javascript Datei, die im Hintergrund läuft - selbst wenn der Browser geschlossen ist.
+
+   3. Die Webapp muss über eine sichere Verbindung (HTTPS) bereitgestellt werden.
 
 ## VibeCoding / AgenticEngineering mit VS-Code und Github Copilot
 
