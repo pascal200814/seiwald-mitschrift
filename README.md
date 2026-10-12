@@ -19,19 +19,6 @@ Der Standardmäßige _Package Manager_ für Node.js ist `npm` (_node package Man
 
 Eine Path-Variable ist eine Umgebungsvariable, die dem Betriebssystem mitteilt, wo es ausführbare Dateien finden kann. Wenn du `pnpm` installierst, wird es normalerweise automatisch zu deiner Path-Variable hinzugefügt, damit du es von überall in der Kommandozeile ausführen kannst.
 
-##
-
-var benutzt man nicht mehr
-let x = 3;
-
-let y = 4.2;
-
-let x: number = 3;
-
-int x = 3;
-
-double y = 4.2;
-
 ## Installation von strapi
 
 Installation mit dem Script `pnpm create strapi`.
@@ -57,6 +44,12 @@ Webdevelopment hat in Laufe der letzten rund 35 Jahre einige Evolutionsstufen du
    2. Die Webapp muss über einen Service Worker verfügen, der das Caching von Ressourcen und die Offline-Funktionalität ermöglicht. Ein Service Worker ist eine Javascript Datei, die im Hintergrund läuft - selbst wenn der Browser geschlossen ist.
 
    3. Die Webapp muss über eine sichere Verbindung (HTTPS) bereitgestellt werden.
+
+Frontend-Frameworks wenden folgende Architekturprinzipien an, um eine möglichst gute _User Experience_ (UX) zu erreichen:
+
+- **Komponenten** - Komponenten sind die wiedervwendbaren "Lego-Bausteine" der Webapp. Sie kapseln HTML, CSS und JavaScript in einer einzigen Einheit, die unabhängig von anderen Komponenten entwickelt und getestet werden kann.
+- **Deklarative Programmierung** - der Javascript- und Template(HTML)-Code beschreiben, wie die Benutzeroberfläche aussehen soll, anstatt die Schritte zu definieren, die erforderlich sind, um sie zu erstellen. Das Framework kümmert sich um die Umsetzung, dabei kommt Reactivität ins Spiel: Wenn sich die Daten ändern, aktualisiert das Framework automatisch die Benutzeroberfläche, um den neuen Zustand (_state_) widerzuspiegeln. Wenn die Aktualisierung auch in die andere Richtung funktioniert (d.h. wenn sich die Benutzeroberfläche (UI) ändert, weil der Benutzer mit ihr interagiert und der Zusatand (_state_) der ANwendung entsprechend aktualisiert wird), spricht man von bidirektionaler Datenbindung (_two-way data binding_).
+  **Logikbausteine** (Schleifen zur Darstellung von Listen und Bedingungen für das konditionale Ein- und Ausblenden von UI-Elementen) werden in den Templates (HTML) der Komponenten definiert. Die Templates werden vom Framework in die eigentliche Benutzeroberfläche übersetzt. Komponenten können auch andere Komponenten enthalten, wodurch eine hierarchische Struktur entsteht. Die Kommunikation zwischen den Komponenten erfolgt über **Props** (Eigenschaften) und **Events** (Ereignisse). Props sind Daten, die von einer übergeordneten Komponente an eine untergeordnete Komponente weitergegeben werden. Events sind Benachrichtigungen, die von einer untergeordneten Komponente an eine übergeordnete Komponente gesendet werden, um auf Benutzerinteraktionen oder andere Ereignisse zu reagieren.
 
 ## VibeCoding / AgenticEngineering mit VS-Code und Github Copilot
 
