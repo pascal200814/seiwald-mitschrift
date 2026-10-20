@@ -61,6 +61,16 @@ Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werden. Wir kö
 
 ---
 
+# Frontend-Entwicklung
+
+## Ordnerstruktur
+
+Die Ordnerstruktur einer typischen Frontend-Anwedung sieht in etwas so aus:
+
+![Ordnerstruktur einer Svelte-Anwedung](image.png)
+
+Der Ordner .vscode enthält Einstellungen für den VS-Code-Editor. Der Ordner 'node*modules' enthält die abhängikeiten oder auch (\_dependecies*) der Anwendung. Das sind jene Pakete, die bei der Entwicklung (_build time_) und/oder bei der Ausführung (_runtime_) der Anwendung benötigt werden. Alle abhängigkeiten sind in der Datei 'package.json' aufeglistet. Außerdem enthält die Datei 'package.json' Infformationen über die Anwendung selbst (Name, Version, Autor, Lizenz, etc.) und Skripte, die bestimmte Aufgaben automatisieren (z.B. das Starten der Anwendung, Testen der ANwendung, Erstellen einer Produktionsversion der Anwendung). Der Ordner 'public' enthält statische Dateien (z.B. Bilder, Fonts, etc.), die direkt vom Browwser unter dem jeweiligen Pfad geladen werden können. Der Ordner 'src' enthält den Quellcode der Anwendung.
+
 ## Javascript-Frontendentwicklung mit Frameworks (Svelte, React, Vue, Angular)
 
 Frontend-Entwicklung basiert auf Komponenten.
@@ -100,3 +110,23 @@ Komponenten sind die Bausteine der Website. Diese sind html, Javascript und CSS.
 ## aria
 
 ARIA (Accessible Rich Internet Applications) ist eine Sammlung von Attributen, die HTML-Elementen hinzugefügt werden, um die Zugänglichkeit für Benutzer mit Behinderungen zu verbessern. Beispiele sind `aria-label`, `aria-hidden` und `aria-expanded`.
+
+## Stack (Stapel)
+
+- Datenstruktur (LIFO - Last In First Out)
+- Server/Software Stack (Operating System, Webserver, Datenbank, Programmiersprache)
+- Bereich im RAM(Speicher) einer Anwendung
+
+## Rest-API
+
+Rest-API: REST = Representational State Transfer. Ein Architekturstil für die Entwicklung von Webservices, der auf den Prinzipien von HTTP basiert. RESTful APIs verwenden standardisierte HTTP-Methoden (GET, POST, PUT, DELETE) und Statuscodes, um die Kommunikation zwischen Client und Server zu ermöglichen.
+
+## Kontrollstrukturen
+
+- Schleifen
+- Bedingte Verzweigung
+
+## Datenstrukturen
+
+- Arrays
+- Objekte (JS) -> key-value-Paare
