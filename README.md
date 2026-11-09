@@ -132,3 +132,10 @@ Rest-API: REST = Representational State Transfer. Ein Architekturstil für die E
 
 - Arrays
 - Objekte (JS) -> key-value-Paare
+
+## Backend
+
+- Datenperesistenz (Datenbank)
+- Authentifizierung (Login, Registrierung)
+- Authorisierung (Rollen, Berechtigungen)
+- Geschäftslogik
