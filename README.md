@@ -139,3 +139,7 @@ Rest-API: REST = Representational State Transfer. Ein Architekturstil für die E
 - Authentifizierung (Login, Registrierung)
 - Authorisierung (Rollen, Berechtigungen)
 - Geschäftslogik
+
+##
+
+MCP = Model Context Protocol. Ein Protokoll, das es ermöglicht, dass KI-Modelle (wie Chatbots) auf externe Tools und Datenquellen zugreifen können, um ihre Fähigkeiten zu erweitern und spezialisierte Aufgaben zu erfüllen.
